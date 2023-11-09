@@ -14,9 +14,8 @@ export default function App() {
       'en-US',
       options
     );
-  const dayText = (count) => {
+  const dayText = (count) =>
     Math.sign(count) === -1 ? `${count} days ago` : `${count} days ago`;
-  };
   return (
     <div className="container">
       <div>
